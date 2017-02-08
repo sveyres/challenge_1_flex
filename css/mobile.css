@@ -1,0 +1,53 @@
+@media(max-width:400px){
+header{
+    width: 100%;
+}
+nav{
+    padding:0.5em 0;
+}
+nav ul{
+    flex-direction: column;
+    margin: 0;
+}
+nav li{
+    font-size: 0.7em;
+    margin: 0.1em 0;
+}
+h1{
+    font-size: 3em;
+    margin:0;
+}
+h2{
+    font-size: 0.8em;
+}
+#sociallink {
+    height: auto;
+    padding: 0.3em;
+}
+#sociallink li{
+    margin: 0 0.2em;
+
+}
+main{
+    width: 100%;
+}
+main p:first-child {
+    padding: 0;
+    padding-bottom: 1em;
+    font-size: 0.8em;
+}
+main section{
+    padding: 0;
+    padding-top: 1em;
+    flex-direction: column;
+}
+article{
+    width: 100%;
+}
+article img{
+    height: auto;
+}
+footer{
+    width: 100%;
+}
+}
