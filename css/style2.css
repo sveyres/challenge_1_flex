@@ -18,36 +18,74 @@ main{
     margin: auto;
     background-color: white;
 }
+nav {
+    padding: 0.3em 10em;
+}
 header nav ul{
     display: flex;
     justify-content: space-around;
+    padding-left: 0;
 }
-
 li{
     list-style: none;
     text-decoration: none;
 }
-a
 nav ul li a{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
     height: 60px;
     color: #e8e8e8;
+    text-decoration: none;
 }
 h1{
     color :#cfa205;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 133px;
     margin: 0.22em 0;
+    font-weight: normal;
 }
 h2{
     color :#cfa205;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Bitter', sans-serif;
+    font-weight: normal;
 }
 #sociallink{
     display: flex;
     justify-content: center;
     background-color: #e8e8e8;
+    height: 4em;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+#sociallink li {
+    display: flex;
+    align-items: center;
+    margin: 0 1em;
+    width: 1.8em;
+    height: 1.8em;
+    border-radius: 50%;
+    border: 2px solid #9c9c9c;
+    padding:6px;
+
+}
+#sociallink a{
+    color: #9c9c9c;
+    text-decoration: none;
+}
+main {
+    padding: 1em;
+}
+main p:first-child {
+    margin: 2em;
+    font-family: 'Bitter', sans-serif;
+    font-weight: normal;
+    height: 90px;
+    padding: 2em 2em 8em 2em;
+    text-align: center;
+    color: #7a7a7a;
+    font-weight: bold;
+    border-bottom: 1px solid #e8e8e8;
 }
 section{
     display: flex;
@@ -61,10 +99,16 @@ article{
 }
 article p{
     flex: auto;
+    font-family: 'Bitter', sans-serif;
+    font-weight: normal;
+    color: #7a7a7a;
+
 }
 article img{
     flex: auto;
 }
 article h3{
     flex: auto;
+    font-family: 'Bitter', sans-serif;
+    text-transform: uppercase;
 }
